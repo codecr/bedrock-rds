@@ -29,6 +29,8 @@ BEGIN
                 'Dada la siguiente consulta SQL y la información del esquema, ',
                 'proporciona una versión optimizada de la consulta. ',
                 'Solo devuelve la consulta optimizada, sin explicaciones. ',
+		'En el caso que se te pida explicar las optimizaciones, ',
+	    	'hazlo de forma detallada y en el lenguaje en el que se te pidan las mismas.',
                 'Consulta original: "', input_query, '" ',
                 'Información del esquema: "', schema_info, '"');
     
